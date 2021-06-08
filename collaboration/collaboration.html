@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../main/main.css">
+    <link rel="stylesheet" href="../collaboration/collabration.css">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="main">
+        <nav class="menu-nav">
+            <h1 class="dashboard">İdarə Paneli</h1>
+            <ul class="menu-nav-ul">
+                <li class="menu-list home-link">
+                    <a class="menu-link"><i class="fas fa-home icon"></i> Əsas Səhifə</a>
+                </li>
+                <li class="menu-list posts-link">
+                    <a class="menu-link"><i class="fas fa-file-alt icon"></i>Postlar</a>
+                </li>
+                <li class="menu-list users-link">
+                    <a class="menu-link"><i class="fas fa-users icon"></i>Komandamız</a>
+                </li>
+                <li class="menu-list collab-link active">
+                    <a class="menu-link active-a"><i class="fas fa-handshake icon"></i>Əməkdaşlıq</a>
+                </li>
+                <li class="menu-list profile-link ">
+                    <a class="menu-link "><i class="fas fa-user icon"></i>Profil</a>
+                </li>
+
+            </ul>
+        </nav>
+        <div class="collaboration-section">
+            <!-- Profil section -->
+            <div class="profil-section">
+                <h1 class="main-h1">Əməkdaşlıq</h1>
+                <div class="profil">
+                    <div class="icons">
+                        <i class="fas fa-search"></i>
+                        <i class="fas fa-bell"></i>
+                    </div>
+                    <div class="line"></div>
+                    <p class="profil-user-fullname">Ad Soyad</p>
+                    <div class="profil-image dropdown">
+                        <img src="../img/avatar.png" alt="user image " class="img">
+                        <ul class=" dropdown-menu log " aria-labelledby="dropdownMenuButton1">
+                            <li class="log-link">
+                                <a class="dropdown-item" href="../user-profile/user-profile.html">Profil</a>
+                            </li>
+                            <li class="log-link">
+                                <a class="dropdown-item" href="../login/login.html">Çıxış</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="collabs" id="collabs-section">
+                <div class="collab-info">
+                    <h4 class="member-h4">Əməkdaş</h4>
+                    <h4 class="email-h4">E-Poçt</h4>
+                    <h4 class="company-name-h4">Şirkət Adı</h4>
+                </div>
+
+                <div class='collab'>
+                    <div class='collab-img'>
+                        <img src='../img/pp2.jpg' alt='Shekil'>
+                    </div>
+                    <p class='collab-fullname'>Ad Soyad</p>
+                    <p class='collab-email'>info@gmail.com</p>
+                    <p class='collab-company-name'>Şirkət Adı</p>
+                    <div class='connect'>
+                        <a href='../user-profile/user-profile.html' class='collab-profile-link'><i class='far fa-user'></i></a>
+                        <a href='../message/message.html' class='collab-message-link'><i class='far fa-envelope'></i></a>
+                    </div>
+                </div>
+
+                <div class="add-collab-s">
+                    <button class="add-collab" id="add-new-collab"><i class="fas fa-plus"></i>Yeni əməkdaş əlavə et</button>
+                </div>
+            </div>
+            <!-- Add new user -->
+            <div class="add-newcollab-section ">
+                <div class="add-new-collab ">
+                    <i class="fas fa-times close-page "></i>
+                    <h3>Yeni əməkdaş</h3>
+                    <div class="new-collab-name ">
+                        <label for="newCollabName">Ad</label>
+                        <input type="text" name="newCollabName" id="newCollabName">
+                    </div>
+                    <div class="new-collab-surname ">
+                        <label for="newCollabSurname">Soyad</label>
+                        <input type="text" name="newCollabSurname" id="newCollabSurname">
+                    </div>
+
+                    <div class="new-collab-company ">
+                        <label for="newCollabCompany">Şirkət</label>
+                        <input type="text" name="newCollabCompany" id="newCollabCompany">
+                    </div>
+                    <div class="new-collab-email ">
+                        <label for="newCollabEmail">E-poçt</label>
+                        <input type="email" name="newCollabEmail" id="newCollabEmail">
+                    </div>
+                    <button class="save-new-collab">Yadda Saxla</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../main/main.js "></script>
+    <script src="../collaboration/collaboration.js "></script>
+</body>
+
+</html>

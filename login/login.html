@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../login/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="panels-container">
+            <div class="panel right-panel">
+                <div class="content">
+                    <h3>One of us?</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus voluptatum rem enim atque porro facilis corrupti eum excepturi itaque doloribus.</p>
+                    <button class="btn transparent" id="sign-up-button "><a href="../register/register.html">Qeydiyyat</a></button>
+
+                </div>
+            </div>
+        </div>
+        <div class="forms-container">
+            <div class="signin-signup signin">
+                <form role="form" class="sign-in-form" id="sign-in-form">
+                    <h2 class="title"> Daxil ol</h2>
+                    <div class="input-field">
+                        <i class="fas fa-envelope social-icon-i"></i>
+                        <input type="email" name="loginEmail" placeholder="E-poçt" class="login-email" id="login-email" value="superadmin@gmail.com" required>
+                        <p class="error email-error"></p>
+                    </div>
+                    <div class="input-field">
+                        <i class="fas fa-lock social-icon-i"></i>
+                        <input type="password" name="loginPassword" placeholder="Şifrə" class="pass password login-password" id="login-password" value="testrole123" required>
+                        <i class="fas fa-eye-slash social-icon-i"></i>
+                        <p class="error pass-error"></p>
+                    </div>
+                    <button type="submit" class="btn btn-login" id="login-button"><a href="#">Daxil Ol</a></button>
+                    <div id="cand"></div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js " integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin=" anonymous "></script>
+    <script src="../login/login.js"></script>
+    <script src="../userCheck.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+ /* POSTS */
+ 
+ .post-section {
+     width: 82%;
+     background-color: #F7F8FC;
+     padding: 35px;
+ }
+ 
+ .post-area-heading {
+     border: 1px solid #CCCCCC;
+     border-radius: 5px;
+     margin-bottom: 10px;
+     padding: 10px 25px;
+     font-size: 20px;
+ }
+ 
+ .post-area {
+     height: 200px;
+     border: 2px solid gray;
+     border-radius: 5px;
+     display: block;
+     padding: 10px 25px;
+     font-size: 20px;
+ }
+ 
+ button.add-post-btn {
+     padding: 10px 40px;
+     margin-left: 570px;
+     margin-top: 25px;
+     font-size: 18px;
+     font-weight: 600;
+ }
+ 
+ .post-card-section {
+     width: 70%;
+ }
+ 
+ div.post-card {
+     margin: 30px;
+     display: block;
+ }
+ 
+ .card {
+     margin-right: 0;
+     display: block;
+ }
+ 
+ .btn-delete,
+ .btn-edit {
+     margin-right: 20px;
+ }
+ 
+ .btn-update {
+     margin-right: 20px;
+ }
+ /* Editor */
+ 
+ #froala-editor {
+     width: 65%;
+ }
+ 
+ #fr-logo {
+     display: none;
+ }

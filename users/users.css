@@ -1,0 +1,187 @@
+.users-section {
+    background-color: #F7F8FC;
+    width: 82%;
+    height: auto;
+    padding: 35px;
+    position: relative;
+}
+
+.users {
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+}
+
+.user {
+    margin: 1%;
+    width: 23%;
+    height: 350px;
+    background-color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex-direction: column;
+}
+
+.user-img {
+    width: 120px;
+    height: 120px;
+    border: 6px solid #363740;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+.user-img img {
+    width: 106px;
+    height: 106px;
+    border-radius: 100%;
+    margin: 1px;
+}
+
+p.user-fullname,
+p.user-position {
+    margin: 2px;
+    color: #363740;
+}
+
+p.user-fullname {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+p.user-position {
+    font-size: 16px;
+}
+
+.btns {
+    margin-top: 30px;
+}
+
+.btn-message-user,
+.btn-profile {
+    width: 100px;
+    height: 35px;
+    margin: 0 5px;
+    border-radius: 15px;
+    background-color: #363740;
+    border: 3px solid #363740;
+}
+
+.btn-message-user:hover,
+.btn-profile:hover {
+    background-color: white;
+    border: 3px solid #363740;
+}
+
+.btns button a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.btns button:hover a {
+    color: #363740;
+    font-weight: 600;
+}
+
+.add-user {
+    color: white;
+    background-color: #55ACEE;
+    border: 1px solid #55ACEE;
+    padding: 10px 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-left: 80%;
+    margin-bottom: 15px;
+}
+
+.add-user i {
+    margin-right: 10px;
+}
+
+
+/* Add new user */
+
+.add-newuser-section {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgba(0, 0, 0, 0.6);
+    top: 0;
+    margin-left: -35px;
+    z-index: 3;
+    position: fixed;
+    align-items: center;
+    display: none;
+}
+
+.add-new-user {
+    width: 600px;
+    height: 550px;
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    margin-left: 21%;
+    padding: 40px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+}
+
+.add-new-user h3 {
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.new-user-name,
+.new-user-surname,
+.new-user-job,
+.new-user-email {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 40px;
+}
+
+.new-user-name label,
+.new-user-surname label,
+.new-user-job label,
+.new-user-email label {
+    width: 30%;
+    font-size: 20px;
+    text-align: left;
+}
+
+.new-user-name input,
+.new-user-surname input,
+.new-user-job input,
+.new-user-email input {
+    width: 70%;
+    font-size: 20px;
+    height: 35px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.save-new-user {
+    background-color: transparent;
+    border: 3px solid #55ACEE;
+    color: #55ACEE;
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius: 40px;
+}
+
+.close-page {
+    font-size: 25px;
+    top: 15px;
+    right: 30px;
+    position: absolute;
+}

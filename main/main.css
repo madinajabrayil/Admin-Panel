@@ -1,0 +1,216 @@
+        body {
+            font-family: 'Hind Siliguri', sans-serif;
+        }
+        /*HOME*/
+        
+        .main {
+            display: flex;
+            width: 100%;
+        }
+        
+        .menu-nav {
+            min-height: 750px;
+            height: auto;
+            width: 18%;
+            background-color: #363740;
+        }
+        
+        .menu-nav-ul {
+            padding: 0;
+        }
+        
+        .dashboard {
+            padding: 50px 20px;
+            color: #838591;
+            font-size: 25px;
+        }
+        
+        .menu-list {
+            padding: 25px 30px;
+            border-left: 1px solid #363740;
+            list-style-type: none;
+        }
+        
+        .menu-list:hover {
+            background-color: #3E4049;
+            border-left: 1px solid #DDE2FF;
+            margin-right: 1px;
+        }
+        
+        .active {
+            background-color: #3E4049;
+            border-left: 1px solid #DDE2FF;
+            font-size: 18px;
+            padding: 25px 30px;
+        }
+        
+        .menu-list:hover .menu-link {
+            color: #DDE2FF;
+        }
+        
+        a.menu-link {
+            font-size: 20px;
+            color: #838591;
+            text-decoration: none;
+            outline-style: none;
+        }
+        
+        .menu-link.active-a {
+            color: #DDE2FF;
+        }
+        
+        .icon {
+            width: 40px;
+            text-align: center;
+        }
+        
+        .home-section {
+            background-color: #F7F8FC;
+            width: 82%;
+            height: auto;
+            padding: 35px;
+        }
+        
+        .profil-section {
+            display: flex;
+            align-items: flex-start;
+            height: 50px;
+            margin-bottom: 70px;
+        }
+        
+        .main-h1 {
+            font-size: 30px;
+            color: #252733;
+            margin-top: 5px;
+            width: 25%;
+        }
+        /* USER PROFIL */
+        
+        .profil {
+            display: flex;
+            width: 100%;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        
+        .profil-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+            margin-left: 20px;
+        }
+        
+        .img {
+            width: 50px;
+            height: 50px;
+            border-radius: 100%;
+        }
+        
+        .profil-user-fullname {
+            margin-bottom: 0;
+            color: #252733;
+            font-weight: 500;
+        }
+        
+        .line {
+            width: 1px;
+            height: 30px;
+            background-color: #C5C7CD;
+            margin: 0 35px;
+        }
+        
+        .icons {
+            display: flex;
+        }
+        
+        .icons i {
+            color: #C5C7CD;
+            font-size: 20px;
+            margin-left: 30px;
+        }
+        /* SEARCH */
+        
+        .search-section {
+            position: relative;
+            top: -5px;
+            right: 15px;
+        }
+        
+        .icon-search-container {
+            display: inline-block;
+            border: transparent;
+            /* border-radius: 50px; */
+            /* height: 45px;
+            width: 45px; */
+            position: absolute;
+            transition: width 0.2s ease-out;
+            /* backface-visibility: hidden; */
+        }
+        
+        .icon-search-container.active-src {
+            width: 285px;
+            background-color: transparent;
+        }
+        
+        .icon-search-container.active-src .search-input {
+            width: 200px;
+        }
+        
+        .search {
+            color: #C5C7CD;
+            font-size: 20px;
+            position: absolute;
+            top: 7px;
+            left: 8px;
+            cursor: pointer;
+        }
+        
+        .search-input {
+            position: absolute;
+            cursor: default;
+            left: 45px;
+            top: 6px;
+            width: 0;
+            padding: 5px;
+            border: none;
+            outline: none;
+            font-size: 18px;
+            line-height: 20px;
+            background-color: transparent;
+            transition: width 0.2s ease-out;
+        }
+        
+        .profil-image:hover .log {
+            display: block;
+        }
+        
+        .log {
+            position: relative;
+            right: 5px;
+            top: 20px;
+            width: 150px;
+            height: auto;
+            background-color: #FFFFFF;
+            padding: 15px 20px;
+            border: 1px solid #C5C7CD;
+            border-radius: 5px;
+            display: none;
+        }
+        
+        .log-link {
+            color: black;
+            font-weight: 500;
+        }
+        
+        .posts {
+            width: 100%;
+            height: auto;
+            background-color: #FFFFFF;
+            border: 1px solid #C5C7CD;
+            border-radius: 5px;
+            padding: 20px;
+        }
+        
+        .add-site {
+            margin-right: 15px;
+        }

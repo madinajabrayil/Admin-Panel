@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <nav class="menu-nav">
+            <h1 class="dashboard">İdarə Paneli</h1>
+            <ul class="menu-nav-ul">
+                <li class="menu-list home-link active">
+                    <a class="menu-link active-a "><i class="fas fa-home icon"></i> Əsas Səhifə</a>
+                </li>
+                <li class="menu-list posts-link">
+                    <a class="menu-link"><i class="fas fa-file-alt icon"></i>Postlar</a>
+                </li>
+                <li class="menu-list users-link">
+                    <a class="menu-link"><i class="fas fa-users icon"></i>Komandamız</a>
+                </li>
+                <li class="menu-list collab-link ">
+                    <a class="menu-link "><i class="fas fa-handshake icon"></i>Əməkdaşlıq</a>
+                </li>
+                <li class="menu-list profile-link ">
+                    <a class="menu-link "><i class="fas fa-user icon"></i>Profil</a>
+                </li>
+
+            </ul>
+        </nav>
+        <div class="home-section">
+            <div class="profil-section">
+                <h1 class="main-h1">Əsas səhifə</h1>
+                <div class="profil">
+                    <div class="icons">
+                        <div class="search-section">
+                            <div class="icon-search-container" data-ic-class="search-trigger">
+                                <span class="fas fa-search search"></span>
+                                <input type="text" class="search-input" data-ic-class="search-input" placeholder="Search" />
+                            </div>
+                        </div>
+                        <div class="notification-input">
+                            <i class="fas fa-bell notification"></i>
+                        </div>
+                    </div>
+                    <div class="line"></div>
+                    <p class="profil-user-fullname">Ad Soyad</p>
+                    <div class="profil-image dropdown">
+                        <img src="../img/avatar.png" alt="user image " class="img">
+                        <ul class=" dropdown-menu log " aria-labelledby="dropdownMenuButton1">
+                            <li class="log-link">
+                                <a class="dropdown-item" href="../user-profile/user-profile.html">Profil</a>
+                            </li>
+                            <li class="log-link">
+                                <a class="dropdown-item" href="../login/login.html">Çıxış</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="posts ">
+                <table class="table caption-top">
+                    <caption>Postları siyahısı</caption>
+                    <thead>
+                        <tr>
+                            <th scope="col">#</th>
+                            <th scope="col">Post başlığı</th>
+                            <th scope="col">Post məzmunu</th>
+                            <th scope="col">Aksiyonlar</th>
+                        </tr>
+                    </thead>
+                    <tbody class="pending-table-body">
+                        <!-- Postlar -->
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main/main.js"></script>
+    <script src="../login/login.js" defer></script>
+</body>
+
+</html>
