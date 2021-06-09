@@ -36,7 +36,7 @@
  }
  
  div.post-card {
-     margin: 30px;
+     margin: 30px 0;
      display: block;
  }
  
@@ -54,11 +54,25 @@
      margin-right: 20px;
  }
  /* Editor */
- 
- #froala-editor {
-     width: 65%;
+ /* .ck.ck-reset,
+ .ck.ck-reset_all,
+ .ck.ck-reset_all * {
+     box-sizing: border-box;
+     width: 60%;
+     height: auto;
+     position: static;
  }
  
- #fr-logo {
-     display: none;
+ .ck.ck-editor {
+     position: relative;
+     width: 60%;
+ } */
+ 
+ .editor {
+     width: 50%;
+ }
+ 
+ .post-edit-content {
+     display: block;
+     margin-bottom: 20px;
  }
